@@ -12,20 +12,9 @@
 		6140E08B201877A90098AC18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6140E089201877A90098AC18 /* Main.storyboard */; };
 		6140E08D201877A90098AC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6140E08C201877A90098AC18 /* Assets.xcassets */; };
 		6140E090201877A90098AC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6140E08E201877A90098AC18 /* LaunchScreen.storyboard */; };
-		6140E09B201877A90098AC18 /* CapsuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6140E09A201877A90098AC18 /* CapsuleViewTests.swift */; };
 		6140E0A6201878010098AC18 /* CapsuleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6140E0A5201878010098AC18 /* CapsuleView.xib */; };
 		6140E0AA20187C9D0098AC18 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6140E0A920187C9D0098AC18 /* CapsuleView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6140E097201877A90098AC18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6140E07A201877A90098AC18 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6140E081201877A90098AC18;
-			remoteInfo = CapsuleView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6140E082201877A90098AC18 /* CapsuleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapsuleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +24,6 @@
 		6140E08C201877A90098AC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6140E08F201877A90098AC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6140E091201877A90098AC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6140E096201877A90098AC18 /* CapsuleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsuleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6140E09A201877A90098AC18 /* CapsuleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleViewTests.swift; sourceTree = "<group>"; };
 		6140E09C201877A90098AC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6140E0A5201878010098AC18 /* CapsuleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CapsuleView.xib; sourceTree = "<group>"; };
@@ -44,13 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6140E07F201877A90098AC18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6140E093201877A90098AC18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				6140E082201877A90098AC18 /* CapsuleView.app */,
-				6140E096201877A90098AC18 /* CapsuleViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,24 +111,6 @@
 			productReference = 6140E082201877A90098AC18 /* CapsuleView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6140E095201877A90098AC18 /* CapsuleViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6140E0A2201877A90098AC18 /* Build configuration list for PBXNativeTarget "CapsuleViewTests" */;
-			buildPhases = (
-				6140E092201877A90098AC18 /* Sources */,
-				6140E093201877A90098AC18 /* Frameworks */,
-				6140E094201877A90098AC18 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6140E098201877A90098AC18 /* PBXTargetDependency */,
-			);
-			name = CapsuleViewTests;
-			productName = CapsuleViewTests;
-			productReference = 6140E096201877A90098AC18 /* CapsuleViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,11 +124,6 @@
 					6140E081201877A90098AC18 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					6140E095201877A90098AC18 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6140E081201877A90098AC18;
 					};
 				};
 			};
@@ -184,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				6140E081201877A90098AC18 /* CapsuleView */,
-				6140E095201877A90098AC18 /* CapsuleViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,13 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6140E094201877A90098AC18 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -221,23 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6140E092201877A90098AC18 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6140E09B201877A90098AC18 /* CapsuleViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6140E098201877A90098AC18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6140E081201877A90098AC18 /* CapsuleView */;
-			targetProxy = 6140E097201877A90098AC18 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6140E089201877A90098AC18 /* Main.storyboard */ = {
@@ -394,38 +327,6 @@
 			};
 			name = Release;
 		};
-		6140E0A3201877A90098AC18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CapsuleViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chetanAggarwal.CapsuleViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapsuleView.app/CapsuleView";
-			};
-			name = Debug;
-		};
-		6140E0A4201877A90098AC18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CapsuleViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chetanAggarwal.CapsuleViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapsuleView.app/CapsuleView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -443,15 +344,6 @@
 			buildConfigurations = (
 				6140E0A0201877A90098AC18 /* Debug */,
 				6140E0A1201877A90098AC18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6140E0A2201877A90098AC18 /* Build configuration list for PBXNativeTarget "CapsuleViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6140E0A3201877A90098AC18 /* Debug */,
-				6140E0A4201877A90098AC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
