@@ -5,6 +5,7 @@ An easy to use drop-in view to create a beautiful card style effect with a title
   - Supports IBDesignable
   - Full controls available in storyboard
   - Can be used programatically 
+  - Swift 3.0 + support
   
  
  ![Gif](
