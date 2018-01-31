@@ -29,10 +29,10 @@ class ViewController: UIViewController {
         sampleView5.setupView()
         sampleView6.setupView()
         sampleView7.setupView()
-
+        
+        //MARK: Use for adding view dynamically
         
         /*
-         //MARK: Use for adding view dynamically
          let capsuleViewFrame = CGRect(x: 50, y: 200, width: 300, height: 300)
          let capsuleView = CapsuleView(placeholderText: "Address", contentText: "31st street,\nPark Avenue,\n 46/6,\n New York,\n USA", cardColor: UIColor(red: 0.075, green: 0.561, blue: 0.325, alpha: 1.00), textColor: UIColor.white, shadowColor: UIColor.darkGray, shadowOpacity: 9, shadowRadius: 9, cardRadius: 9, shadowOffset: CGSize(width: 0, height: 0), textAllignment: 1, showCross: false, viewFrame: capsuleViewFrame,placeHolderSize:4,titleSize: 3)
          self.view.addSubview(capsuleView)
@@ -40,6 +40,6 @@ class ViewController: UIViewController {
          */
         
     }
-
+    
 }
 
